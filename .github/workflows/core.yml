@@ -7,10 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Install dependencies
-        run: npm install @actions/core
-
+      
       - name: Dire bonjour avec mon action
         uses: katycase/nodeCI@main
         with:
