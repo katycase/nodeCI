@@ -3,7 +3,7 @@ on:
   push:
 
 jobs : 
-  test_pythonb:
+  test_node:
     runs-on : ubuntu-latest
     steps:
         - name: Checkout repository
