@@ -1,5 +1,5 @@
-import { add } from "./index.js";
-import assert from "assert";
+const { add } = require('./index.js');
+const assert = require('assert'); 
 
 describe('add function', function() {
   it('should return the sum of two numbers', function() {

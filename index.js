@@ -1,7 +1,7 @@
-function test(a,b) {
+function add(a,b) {
 
     return a + b
     
 }
 
-module.exports = { test }
+module.exports = { add }
