@@ -12,6 +12,6 @@ inputs:
     default: fr
 
 runs:
-  using: node18
+  using: node16
   main: index.js
 
